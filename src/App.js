@@ -10,7 +10,7 @@ import NotFound from './components/NotFound';
 import Thanks from './components/Thanks';
 import Extra from './components/Extra';
 import LoginPage from './pages/LoginPage';
-import Register from './components/Register';
+import RegisterPage from './pages/RegisterPage';
 import TrackOrder from './components/TrackOrder';
 import Invoice from './components/Invoice';
 import Checkout from './components/Checkout';
@@ -35,7 +35,7 @@ class App extends React.Component  {
             <Route path="/404" exact component={NotFound} />
             <Route path="/extra" exact component={Extra} />
             <Route path="/login" exact component={LoginPage} />
-            <Route path="/register" exact component={Register} />
+            <Route path="/register" exact component={RegisterPage} />
             <Route path="/track-order" exact component={TrackOrder} />
             <Route path="/invoice" exact component={Invoice} />
             <Route path="/checkout" exact component={Checkout} />
