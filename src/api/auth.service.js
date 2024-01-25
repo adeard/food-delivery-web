@@ -3,7 +3,7 @@ import Api from ".";
 
 export const login = (data, callback) => {
     axios.post(`${Api}/api/v1/login`, data).then((res) => {
-        callback(true, res.data.data.token)
+        callback(true, res.data.data)
     }).catch((err) => {
         callback(false, err)
     })
