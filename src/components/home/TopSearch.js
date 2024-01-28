@@ -4,9 +4,9 @@ import {Row,Col,Container,Form} from 'react-bootstrap';
 import Select2 from 'react-select2-wrapper';
 import Icofont from 'react-icofont';
 import OwlCarousel from 'react-owl-carousel3';
-import ProductBox from './ProductBox';
+import ProductBox from '../elements/ProductBox';
 
-import CategoriesCarousel from '../common/CategoriesCarousel';
+import CategoriesCarousel from '../fragments/CategoriesCarousel';
 
 class TopSearch extends React.Component {
 

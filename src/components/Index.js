@@ -3,7 +3,7 @@ import {Row,Col,Container} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel3';
 import TopSearch from './home/TopSearch';
-import ProductBox from './home/ProductBox';
+import ProductBox from './elements/ProductBox';
 import CardItem from './common/CardItem';
 import SectionHeading from './common/SectionHeading';
 import FontAwesome from './common/FontAwesome';

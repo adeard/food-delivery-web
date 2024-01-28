@@ -4,7 +4,7 @@ import {Row,Col,Container,Dropdown,Accordion,Button,Form,Spinner} from 'react-bo
 import Icofont from 'react-icofont';
 import PageTitle from './common/PageTitle';
 import CardItem from './common/CardItem';
-import CategoriesCarousel from './common/CategoriesCarousel';
+import CategoriesCarousel from './fragments/CategoriesCarousel';
 
 class List extends React.Component {
 	render() {
