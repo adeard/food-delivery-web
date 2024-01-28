@@ -24,7 +24,7 @@ const CategoriesCarousel = () => {
                 <div className="item" key={category.id}>
 					<ProductBox 
 						key={category.id}
-						boxClass='osahan-category-item'
+						boxClass='osahan-category-item' 
 						title={category.name}
 						image={category.image}
 						imageClass='img-fluid'
